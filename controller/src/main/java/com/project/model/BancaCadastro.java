@@ -1,9 +1,11 @@
 package com.project.model;
 
+//Esta classe é a ficha de cadastro de cada banca.
+
 import jakarta.persistence.*;
 
 @Entity
-public class Banca {
+public class BancaCadastro {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -12,9 +14,9 @@ public class Banca {
     private String nome;
     private String abreviatura;
 
-    public Banca() {}
+    public BancaCadastro() {}
 
-    public Banca(String nome, String abreviatura) {
+    public BancaCadastro(String nome, String abreviatura) {
         this.nome = nome;
         this.abreviatura = abreviatura;
     }
