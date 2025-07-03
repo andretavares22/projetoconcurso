@@ -63,3 +63,10 @@ input, button {
     margin: 10px 0;
     padding: 10px;
 }
+
+#mensagem {
+  display: block !important;
+  color: green !important;
+  font-weight: bold !important;
+  margin-top: 10px;
+}

@@ -26,17 +26,21 @@
     </div>
 
     <div>
-
         <form id="form-prova">
+
             <input type="text" id="banca" placeholder="Banca" required>
             <input type="text" id="orgao" placeholder="Órgão" required>
-            <input type="text" id="questoesgerais" placeholder="Conhecimentos Gerais" required>
-            <input type="text" id="questoesespecificas" placeholder="Conhecimentos Específicos" required>
+            <input type="number" id="questoesgerais" placeholder="Conhecimentos Gerais" required>
+            <input type="number" id="questoesespecificas" placeholder="Conhecimentos Específicos" required>
             <input type="text" id="discursiva" placeholder="Discursiva" required>
             <input type="number" id="ano" placeholder="Ano" required>
+
             <button type="submit">Cadastrar</button>
+          
         </form>
-    
+        
+        <div id="mensagem"></div>
+
     </div>
 
     <script src="script.js"></script>
